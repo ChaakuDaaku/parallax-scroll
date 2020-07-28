@@ -1,0 +1,40 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+body {
+  margin: 0;
+}
+article, aside, footer, header, nav, section, figcaption, figure, main {
+  display: block;
+}
+/* Columns and layout */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+#__bs_notify__ {
+  display: none !important;
+}
+main {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+@media (max-width: 680px) {
+  .flex-grid {
+    display: block;
+  }
+  .single-column .col {
+    margin: 2rem;
+    width: auto;
+  }
+}
+
+footer {
+  background: #333;
+  color: #fff;
+}
+
+html, body {
+  background: #000;
+  color: #aaa;
+}
